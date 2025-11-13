@@ -48,9 +48,8 @@ export default function Sidebar({ activeTab, setActiveTab, sidebarOpen, setSideb
         } md:translate-x-0 fixed md:relative z-40 w-64 h-screen bg-white border-r border-border transition-transform duration-300 flex flex-col overflow-y-auto`}
       >
         {/* Header */}
-        <div className="p-6 border-b border-border">
-          <h1 className="text-2xl font-bold text-primary">LearnSphere</h1>
-          <p className="text-sm text-muted-foreground">Admin Panel</p>
+        <div className="p-5 border-b border-border">
+          <h1 className="text-2xl font-bold text-primary">Shengohub</h1>
         </div>
 
         {/* Menu Items */}
