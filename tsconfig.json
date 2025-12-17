@@ -36,7 +36,7 @@
     ".next\\dev/types/**/*.ts",
     ".next\\dev/types/**/*.ts",
     ".next/dev/types/**/*.ts"
-, "components/admin/teachers-page.jsx", "components/admin/students-page.jsx", "components/admin/requests-page.jsx"  ],
+, "components/admin/teachers-page.jsx", "components/admin/students-page.jsx", "components/admin/requests-page.jsx", "components/admin/dashboard.jsx", "components/admin/reports-page.jsx"  ],
   "exclude": [
     "node_modules"
   ]

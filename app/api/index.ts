@@ -49,9 +49,19 @@ export const getATeachersRequest = async (id: any) => {
 
 export const updateTeachersRequestStatus = async (id: any) => {
     try {
-        const response = await axios.get(`${AppRoutes.updateTeacherStatus}/${id}`);
+        const response = await axios.put(`${AppRoutes.updateTeacherStatus}/${id}`);
         return response?.data?.data;
     } catch (error: any) {
         console.error("Error fetching a teacher:", error?.message);
+    }
+};
+
+export const getDashboardStats = async () => {
+    try {
+        const response = await axios.get(AppRoutes.getDashboardStats);
+        return response?.data?.data;
+    } catch (error: any) {
+        console.error("Error fetching dashboard stats:", error.message);
+        return null;
     }
 };

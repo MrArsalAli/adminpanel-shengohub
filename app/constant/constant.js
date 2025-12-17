@@ -10,6 +10,7 @@ export const AppRoutes = {
     verifyOTP: BASE_URL + "/auth/verifyOTP",
 
     // admin
+    getDashboardStats: BASE_URL + "/admin/getDashboardStats",
     getAllUsers: BASE_URL + "/admin/getAllUsers",
     getAllTeachers: BASE_URL + "/admin/getAllTeachers",
     getAllStudents: BASE_URL + "/admin/getAllStudents",

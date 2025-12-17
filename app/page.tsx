@@ -7,7 +7,7 @@ import Dashboard from "@/components/admin/dashboard"
 import TeachersPage from "@/components/admin/teachers-page"
 import StudentsPage from "@/components/admin/students-page"
 import RequestsPage from "@/components/admin/requests-page"
-import CoursesPage from "@/components/admin/courses-page"
+// import CoursesPage from "@/components/admin/courses-page"
 import PaymentsPage from "@/components/admin/payments-page"
 import ReportsPage from "@/components/admin/reports-page"
 import SettingsPage from "@/components/admin/settings-page"
@@ -26,8 +26,8 @@ export default function AdminPanel() {
         return <StudentsPage />
       case "requests":
         return <RequestsPage />
-      case "courses":
-        return <CoursesPage />
+      // case "courses":
+      //   return <CoursesPage />
       case "payments":
         return <PaymentsPage />
       case "reports":
