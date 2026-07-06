@@ -9,7 +9,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Admin Panel ShengoHub',
   description: 'Small Steps Big Brains',
-  generator: 'v0.app',
   icons: {
     icon: [
       {

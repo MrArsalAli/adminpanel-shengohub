@@ -2,7 +2,7 @@ const devURL = "http://localhost:7777";
 const prodURL = "https://learnsphere-backend-21nu.onrender.com";
 const prodURL1 = "https://learn-sphere-backend-pi.vercel.app";
 
-const BASE_URL = devURL;
+const BASE_URL = prodURL1;
 
 export const AppRoutes = {
     // auth
