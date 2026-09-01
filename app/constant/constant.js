@@ -5,21 +5,20 @@ const prodURL1 = "https://learn-sphere-backend-pi.vercel.app";
 const BASE_URL = prodURL1;
 
 export const AppRoutes = {
-    // auth
-    signin: BASE_URL + "/auth/login",
-    verifyOTP: BASE_URL + "/auth/verifyOTP",
+  // auth
+  signin: BASE_URL + "/auth/login",
+  verifyOTP: BASE_URL + "/auth/verifyOTP",
 
-    // admin
-    getDashboardStats: BASE_URL + "/admin/getDashboardStats",
-    getAllUsers: BASE_URL + "/admin/getAllUsers",
-    getAllTeachers: BASE_URL + "/admin/getAllTeachers",
-    getAllStudents: BASE_URL + "/admin/getAllStudents",
-    getAllTeachersRequests: BASE_URL + "/admin/getAllTeachersRequests",
-    getSingleTeacherRequest: BASE_URL + "/admin/getATeachersRequest",
-    updateTeacherStatus: BASE_URL + "/admin/updateTeachersRequestStatus"
-
-
-
+  // admin
+  getDashboardStats: BASE_URL + "/admin/getDashboardStats",
+  getAllUsers: BASE_URL + "/admin/getAllUsers",
+  getAllTeachers: BASE_URL + "/admin/getAllTeachers",
+  getAllStudents: BASE_URL + "/admin/getAllStudents",
+  getAllTeachersRequests: BASE_URL + "/admin/getAllTeachersRequests",
+  getSingleTeacherRequest: BASE_URL + "/admin/getATeachersRequest",
+  updateTeacherStatus: BASE_URL + "/admin/updateTeachersRequestStatus",
+  adminRefundLessonPackage: "/admin/refund-lesson-package",
+  createTutorPayout: "/admin/payout/tutor",
 };
 
 export default AppRoutes;
